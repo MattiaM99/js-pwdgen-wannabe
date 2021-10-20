@@ -12,10 +12,17 @@ console.log(firstname);
 console.log(lastname);
 console.log(favouritecolor);
 
+
 const textToPrint =
 `
   La tua password consigliata è: ${firstname}${lastname}${favouritecolor}21
 `;
 
+const variabilePassword = 
+`
+ ${firstname}${lastname}${favouritecolor}21
+`;
+
 console.log(textToPrint);
 document.getElementById('password').innerHTML = textToPrint;
+document.write(variabilePassword.length);
